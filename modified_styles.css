@@ -1,0 +1,205 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(50deg, #f7f1f9 0%, #eadbff 49%, #cbb2f0 78%);
+    margin: 0;
+    padding: 0;
+    cursor: url('cursor-image.png'), auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(50deg, #f7f1f9 0%, #eadbff 49%, #cbb2f0 78%);
+    color: #333;
+    letter-spacing: 5px;
+    cursor: url('cursor-image.png'), auto;
+}
+
+img {
+    border-radius: 75%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+#port {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  button {
+    margin-left: 10px;
+  }
+
+  .calculator {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.calculator input {
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+.calculator button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 15px;
+    font-weight: bold;
+}
+body {
+    background: linear-gradient(50deg, #f7f1f9 0%, #eadbff 49%, #cbb2f0 78%);
+    color: black;
+}
+
+body.night {
+    background: linear-gradient(50deg, #333 0%, #555 49%, #777 78%);
+    color: white;
+}
+
+header.night {
+    background-color: #333;
+    color: white;
+}
+
+nav ul li a.night {
+    color: #BB86FC;
+}
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.faq-question {
+    cursor: pointer;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.faq-question:hover {
+    color: #0056b3;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+    padding-left: 20px;
+    font-style: italic;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #28a745;
+    color: white;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+@keyframes myAnim {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
+
+.center-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.bottom-elements {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+.align-left {
+    margin-right: auto;
+}
+
+.red-button {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.timeGreeting {
+    align-items: center;
+}
+.subscribeButton{
+    align-items: center;
+}
+audio{
+    align-items: center;
+}
